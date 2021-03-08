@@ -8,7 +8,7 @@ import biblioteka.interfejs.BibliotekaInterface;
 
 public class Bublioteka implements BibliotekaInterface {
 
-	//Privatna lista sa svim knjigaam u biblioteci
+	
 	private LinkedList<Knjiga> knjige=new LinkedList<Knjiga>();
 	@Override
 	public void dodajKnjigu(Knjiga knjiga) {
