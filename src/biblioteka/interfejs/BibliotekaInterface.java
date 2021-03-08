@@ -13,7 +13,8 @@ public interface BibliotekaInterface {
 	public LinkedList<Knjiga> pronadjiKnjigu(
 			Autor autor,
 			String isbn,
-			String izdavac
+			String izdavac,
+			String naslov
 			);
 
 }
